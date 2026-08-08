@@ -49,11 +49,10 @@ I installed and configured Active Directory Domain Services on DC-1 and created 
 
 <h3>Step 3.</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="2048" height="1214" alt="image" src="https://github.com/user-attachments/assets/f44df673-3831-40ee-a39e-4f11c51ef061" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>
+I joined client-1 to the mydomain.com domain and verified domain authentication by signing in as mydomain\jane_admin. The hostname command confirmed that the logged-in domain user session was running on client-1.
 </p>
 <br />
-
-<h3>Step 4.</h3>
