@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="2048" height="1156" alt="image" src="https://github.com/user-attachments/assets/16347994-edde-4982-9d3e-0d6e9c899d46" />
 </p>
 <p>
-I created and started two Azure virtual machines: DC-1 as the domain controller and client-1 as the client computer. Both virtual machines are located in the Active Directory resource group and were prepared for domain deployment.
+To start off, we are going to need two Azure virtual machines: DC-1 as the domain controller and client-1 as the client computer. Both virtual machines are sharing the same resource group and network
 </p>
 <br />
 
