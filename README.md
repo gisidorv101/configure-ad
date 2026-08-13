@@ -72,6 +72,17 @@ Log into DC-1 and ping the IP to see if it's running properly by going into Powe
 <img width="1665" height="962" alt="Screenshot 2026-08-12 at 8 49 41 PM" src="https://github.com/user-attachments/assets/a262bb6c-91be-4c12-86a9-9b1ace27f1ec" />
 
 <img width="1660" height="948" alt="Screenshot 2026-08-12 at 8 48 31 PM" src="https://github.com/user-attachments/assets/c131d790-9dcf-4cbc-ba78-3b64c8f4810f" />
+</p>
+<br />
+<h3>Step 6.</h3>
+
+Back on DC-1, we are now going to make the Active Directory. Start off by launching Server Manager and clicking "Add roles and features"/ next/ next/ next/ Active Directory Domain Services/Add Features/Next/Next/Check the box "restart" and "yes" / Install. After that, we are gonna click on the little flag icon at the top right corner 
+</p>
+<br />
+<h3>Step 7.</h3>
+<img width="307" height="245" alt="Screenshot 2026-08-12 at 8 52 34 PM" src="https://github.com/user-attachments/assets/efe2f574-a3dd-44c1-a75b-5a6649d609ef" />
+
+<img width="702" height="509" alt="Screenshot 2026-08-12 at 8 52 48 PM" src="https://github.com/user-attachments/assets/cebd16f3-c9d2-458e-8d4e-bde3c3c58419" />
 
 
-Back on DC-1, we are now going to make the Active Directory. Start off by launching Server Manager and clicking "Add roles and features"/ next/ next/ next/ Active Directory Domain Services/Add Features/Next/Next/Check the box "restart" and "yes" / Install. After that we are gonna click on the little flag icon at the top right corner  
+Once we click the flag, we click on "promote this server to a domain controller" and then name our domain. Follow the prompts till completion and account will reset
