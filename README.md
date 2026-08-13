@@ -67,4 +67,11 @@ Log into DC-1 and ping the IP to see if it's running properly by going into Powe
 <br />
 <h3>Step 5.</h3>
 
+<img width="1664" height="964" alt="Screenshot 2026-08-12 at 8 49 19 PM" src="https://github.com/user-attachments/assets/353522f2-756e-4a6b-9eab-3f6a57dac15e" />
+
+<img width="1665" height="962" alt="Screenshot 2026-08-12 at 8 49 41 PM" src="https://github.com/user-attachments/assets/a262bb6c-91be-4c12-86a9-9b1ace27f1ec" />
+
+<img width="1660" height="948" alt="Screenshot 2026-08-12 at 8 48 31 PM" src="https://github.com/user-attachments/assets/c131d790-9dcf-4cbc-ba78-3b64c8f4810f" />
+
+
 Back on DC-1, we are now going to make the Active Directory. Start off by launching Server Manager and clicking "Add roles and features"/ next/ next/ next/ Active Directory Domain Services/Add Features/Next/Next/Check the box "restart" and "yes" / Install. After that we are gonna click on the little flag icon at the top right corner  
