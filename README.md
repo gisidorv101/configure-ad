@@ -86,4 +86,13 @@ Back on DC-1, we are now going to make the Active Directory. Start off by launch
 
 <img width="407" height="209" alt="Screenshot 2026-08-12 at 8 58 27 PM" src="https://github.com/user-attachments/assets/8c85d2ea-2180-41ac-98c2-c069914d591e" />
 
-Once we click the flag, we click on "promote this server to a domain controller" and then name our domain. Follow the prompts till completion and the account will reset. Log back into account using "domain\user"
+Once we click the flag, we click on "promote this server to a domain controller" and then name our domain. Follow the prompts till completion, and the account will reset. Log back into the account using "domain\user"
+</p>
+<br />
+<h3>Step 8.</h3>
+
+<img width="1645" height="948" alt="Screenshot 2026-08-12 at 10 24 11 PM" src="https://github.com/user-attachments/assets/7edd7fb6-a02e-466c-908b-3ed890e99dfc" />
+
+<img width="1543" height="660" alt="Screenshot 2026-08-12 at 10 25 11 PM" src="https://github.com/user-attachments/assets/b9b6e32d-aac6-4324-b39c-1f578b8566a5" />
+
+Once logged back in, go into "Active Directory Users and Computers"/ your domain/ right click and create a new orginaizational unit and name it "_EMPLOYEES, _ADMINS, 
