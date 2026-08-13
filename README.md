@@ -52,7 +52,7 @@ We are now gonna go into DC-1 setting and change to NIC from "Dynamic to "Static
 </p>
 <p>
 <p>
-Then on Client-1, we are going to set the DNS to DC-1's private IP, so go on DC-1, find the private IP address,s and then go back into clinet-1/ networking/ network settings/ network interface/ DNS servers. and then change it from "inherit from VM" to "custom" and put in the private IP address, then restart the VM on Azure
+Then on Client-1, we are going to set the DNS to DC-1's private IP, so go on DC-1, find the private IP address, and then go back into clinet-1/ networking/ network settings/ network interface/ DNS servers. and then change it from "inherit from VM" to "custom" and put in the private IP address, then restart the VM on Azure
 </p>
 <br />
 <h3>Step 4.</h3>
@@ -62,7 +62,7 @@ Client-1
 <img width="1613" height="954" alt="Screenshot 2026-08-12 at 8 04 37 PM" src="https://github.com/user-attachments/assets/9e268655-f3c8-4ea4-9c02-6c0740fbddb1" />
 
 
-Log into DC-1 and ping the IP to see if it's running properly by going into PowerShell and typing "ping 10.x.x.x" Once that's all don,e go back into Client-1, open PowerShell, and type "ipconfig/all; the DNS output should be DC-1 private network
+Log into DC-1 and ping the IP to see if it's running properly by going into PowerShell and typing "ping 10.x.x.x" Once that's all done,e go back into Client-1, open PowerShell, and type "ipconfig /all; the DNS output should be DC-1 private network
 </p>
 <br />
 <h3>Step 5.</h3>
