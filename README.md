@@ -84,5 +84,6 @@ Back on DC-1, we are now going to make the Active Directory. Start off by launch
 
 <img width="702" height="509" alt="Screenshot 2026-08-12 at 8 52 48 PM" src="https://github.com/user-attachments/assets/cebd16f3-c9d2-458e-8d4e-bde3c3c58419" />
 
+<img width="407" height="209" alt="Screenshot 2026-08-12 at 8 58 27 PM" src="https://github.com/user-attachments/assets/8c85d2ea-2180-41ac-98c2-c069914d591e" />
 
-Once we click the flag, we click on "promote this server to a domain controller" and then name our domain. Follow the prompts till completion and account will reset
+Once we click the flag, we click on "promote this server to a domain controller" and then name our domain. Follow the prompts till completion and the account will reset. Log back into account using "domain\user"
