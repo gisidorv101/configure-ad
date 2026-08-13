@@ -48,7 +48,7 @@ We are now gonna go into DC-1 setting and change to NIC from "Dynamic to "Static
 
 <h3>Step 3.</h3>
 <p>
-<img <img width="2048" height="1214" alt="image" src="https://github.com/user-attachments/assets/f44df673-3831-40ee-a39e-4f11c51ef061" />
+<img width="1430" height="792" alt="Screenshot 2026-08-12 at 7 56 31 PM" src="https://github.com/user-attachments/assets/0279197f-c2ac-4506-bc5c-9a81e3061906" />
 </p>
 <p>
 <p>
