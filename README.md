@@ -63,3 +63,8 @@ Client-1
 
 
 Log into DC-1 and ping the ip to see if its running properly by going into Powershell and typing "ping 10.x.x.x" Once thats all done go back into Client-1, open Powershell and type "ipconfig/all", the DNS output should be DC-1 private network
+</p>
+<br />
+<h3>Step 5.</h3>
+
+Back onto client-1 we are now going to make the Active Directory, start off by launching Server Manager and the clicking Add roles and features/ next/ next/ next/ Active Directory Domain Services/ Add Features/ Next/ Next / Check the box "restart" and "yes" / 
