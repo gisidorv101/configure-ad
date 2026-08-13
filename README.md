@@ -95,4 +95,23 @@ Once we click the flag, we click on "promote this server to a domain controller"
 
 <img width="1543" height="660" alt="Screenshot 2026-08-12 at 10 25 11 PM" src="https://github.com/user-attachments/assets/b9b6e32d-aac6-4324-b39c-1f578b8566a5" />
 
-Once logged back in, go into "Active Directory Users and Computers"/ your domain/ right click and create a new orginaizational unit and name it "_EMPLOYEES, _ADMINS, 
+Once logged back in, go into "Active Directory Users and Computers"/ your domain/right-click and create a new organizational unit and name it "_EMPLOYEES, _ADMINS, 
+</p>
+<br />
+<h3>Step 9.</h3>
+
+<img width="1759" height="941" alt="Screenshot 2026-08-12 at 10 27 29 PM" src="https://github.com/user-attachments/assets/f85c1e7b-49ff-4528-9411-63d55938f117" />
+
+<img width="1769" height="938" alt="Screenshot 2026-08-12 at 10 28 50 PM" src="https://github.com/user-attachments/assets/2a675352-72e0-48b0-b815-1f35d902bedf" />
+
+Go into the _Admins folder and right-click and click "New"/User and make the user, once done with that go back into the folder and right-click again, this time click properties and make it an admin
+</p>
+<br />
+<h3>Step 10.</h3>
+
+<img width="1665" height="953" alt="Screenshot 2026-08-12 at 10 34 16 PM" src="https://github.com/user-attachments/assets/60c4e1d1-d1d5-44e4-b6f2-55bcf0f3c71a" />
+Back on Client-1, we are now gonna go into settings/rename this PC (advanced)/ change/ under "Member of" put the domain name and hit ok. And PC will restart.
+<img width="1767" height="949" alt="Screenshot 2026-08-12 at 10 37 28 PM" src="https://github.com/user-attachments/assets/405d19bc-16de-402d-b452-ef821c81b298" />
+
+
+Back on DC-1, we are now going to check to see if client-1 is in DC. Go to Active Directory Users and Computers/ your domain/ computers. It should be in there
