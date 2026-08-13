@@ -37,12 +37,11 @@ To start off, we are going to need two Azure virtual machines: DC-1 as the domai
 
 <h3>Step 2.</h3>
 <p>
-<img <img width="1693" height="929" alt="image" src="https://github.com/user-attachments/assets/b228e8dc-60b4-4d95-8f2a-a21b4398b7e5" />
-
+<img width="803" height="452" alt="Screenshot 2026-08-12 at 4 47 31 PM" src="https://github.com/user-attachments/assets/1357e025-6c9d-4a74-9367-d9996b991558" />
 </p>
 <p>
 <p>
-I installed and configured Active Directory Domain Services on DC-1 and created the mydomain.com domain. I organized Active Directory using OUs for administrators, clients, employees, and groups, then created employee user accounts in the _EMPLOYEES OU.
+We are now gonna go into DC-1 setting and change to NIC from "Dynamic to "Static" by clicking on it and going to networking/ network settings/ network interface/ ipconfig1/ static. Then click ok
 </p>
 </p>
 <br />
@@ -53,6 +52,14 @@ I installed and configured Active Directory Domain Services on DC-1 and created 
 </p>
 <p>
 <p>
-I joined client-1 to the mydomain.com domain and verified domain authentication by signing in as mydomain\jane_admin. The hostname command confirmed that the logged-in domain user session was running on client-1.
+Then on Client-1 we are going to set the DNS to DC-1 private IP, so go on DC-1 find the private IP adress and then go back into clinet-1/ networking/ network settings/ network interface/ DNS servers. and then change it from "inherit from vm" to "custom" and put in the private ip adress, then restart the vm on Azure
 </p>
 <br />
+<h3>Step 4.</h3>
+DC-1
+<img width="1178" height="552" alt="Screenshot 2026-08-12 at 8 00 33 PM" src="https://github.com/user-attachments/assets/2634d1fa-301c-4415-8287-95559da985bf" />
+Client-1
+<img width="1613" height="954" alt="Screenshot 2026-08-12 at 8 04 37 PM" src="https://github.com/user-attachments/assets/9e268655-f3c8-4ea4-9c02-6c0740fbddb1" />
+
+
+Log into DC-1 and ping the ip to see if its running properly by going into Powershell and typing "ping 10.x.x.x" Once thats all done go back into Client-1, open Powershell and type "ipconfig/all", the DNS output should be DC-1 private network
